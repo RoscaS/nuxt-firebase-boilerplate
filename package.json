@@ -1,0 +1,28 @@
+{
+  "name": "stephs-avocado",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "npm run generate && firebase deploy --only hosting --debug"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/firebase": "^7.1.1",
+    "core-js": "^3.6.5",
+    "firebase": "^8.1.1",
+    "nuxt": "^2.14.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/moment": "^1.6.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "faker-nuxt": "^1.0.2",
+    "prettier": "^2.1.2"
+  }
+}
